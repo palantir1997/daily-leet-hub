@@ -5,7 +5,5 @@ class Solution:
             return ""
         else:
             output = math.gcd(len(str1), len(str2))
-            print(output)
             ans = str1[:output]
-            print(ans)
         return ans
