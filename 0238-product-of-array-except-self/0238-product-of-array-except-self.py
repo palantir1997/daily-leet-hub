@@ -9,12 +9,10 @@ class Solution:
         for i in range(n):
             ans[i] *= left_v
             left_v *= nums[i]
-            print(ans[i],left_v)
-        
+
             j = n - 1 - i
             ans[j] *= right_v
             right_v *= nums[j]
-            print(ans[j], right_v)
 
         return ans
         
